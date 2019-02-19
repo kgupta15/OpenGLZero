@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:5:1-74:12
+INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:5:1-74:12
+INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:5:1-74:12
+INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:5:1-74:12
+INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:5:1-74:12
+INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:5:1-74:12
+INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:5:1-74:12
+	package
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:6:5-29
+		INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:8:5-30
+		INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:5:11-69
+	android:versionCode
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:7:5-28
+		INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:9:5-35
+uses-feature#0x00020000
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:12:5-54
+	android:glEsVersion
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:12:19-51
+uses-feature#android.hardware.touchscreen
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:16:9-52
+uses-feature#android.hardware.gamepad
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:21:9-48
+uses-feature#android.hardware.type.pc
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:26:9-48
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:30:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:32:5-66
+	android:name
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:32:22-63
+application
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:45:5-72:19
+	android:label
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:45:18-50
+	android:hardwareAccelerated
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:49:9-43
+	android:icon
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:46:9-43
+	android:allowBackup
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:47:9-35
+	android:theme
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:48:9-67
+activity#org.libsdl.app.SDLActivity
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:55:9-71:20
+	android:label
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:56:13-45
+	android:configChanges
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:57:13-83
+	android:name
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:55:19-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:59:13-62:29
+action#android.intent.action.MAIN
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml:61:27-74
+uses-sdk
+INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Graphics Projects\OpenGLZero\external\SDL2-2.0.9\android-project\app\src\main\AndroidManifest.xml
