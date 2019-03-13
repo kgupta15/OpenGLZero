@@ -21,17 +21,32 @@
 **           E-mail: kpgupta98@gmail.com                                  **
 **           Date  : 13.03.2019                                           **
 ****************************************************************************/
-#include "Scene.h"
+#pragma once
+#ifndef __RENDERER_H__
+#define __RENDERER_H__
 
-int main(int argc, char *argv[])
-{
-	Scene* scene = new Scene("OpenGLZero");
-	if(!scene->Init(argc, argv)) {
-		scene->Shutdown();
-		return 0;
-	}
+#include <GL/glew.h>
 
-	scene->Run();
-	scene->Shutdown();
-	return 1;
-}
+class Renderer {
+public:
+    virtual bool Init(int argc, char* argv[]) = 0;
+    virtual void Draw() = 0;
+
+};
+
+class GameRenderer : public Renderer {
+private:
+    GLuint m_vao;
+    GLuint m_vbo;
+    GLuint m_vert_shader, m_frag_shader;
+    GLuint m_shader_program;
+
+public:
+    GameRenderer();
+    virtual ~GameRenderer() = default;
+
+    bool Init(int argc, char* argv[]) override;
+    void Draw() override;
+};
+
+#endif  // __RENDERER_H__

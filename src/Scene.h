@@ -21,17 +21,32 @@
 **           E-mail: kpgupta98@gmail.com                                  **
 **           Date  : 13.03.2019                                           **
 ****************************************************************************/
-#include "Scene.h"
+#pragma once
+#ifndef __SCENE_H__
+#define __SCENE_H__
 
-int main(int argc, char *argv[])
-{
-	Scene* scene = new Scene("OpenGLZero");
-	if(!scene->Init(argc, argv)) {
-		scene->Shutdown();
-		return 0;
-	}
+#include <string>
+#include <vector>
+#define SDL_MAIN_HANDLED
+#include <SDL.h>
+#include "Renderer.h"
 
-	scene->Run();
-	scene->Shutdown();
-	return 1;
-}
+class Scene {
+private:
+    SDL_Window              *m_window;
+    SDL_GLContext            m_context;
+    std::string              m_window_title;
+    std::vector<Renderer*>   m_renderers;
+
+public:
+    Scene(std::string title = "OpenGLZero");
+    virtual ~Scene();
+
+    bool Init(int argc, char* argv[]);
+    bool InitGL();
+    void Run();
+    void Shutdown();
+
+};
+
+#endif  // __SCENE_H__

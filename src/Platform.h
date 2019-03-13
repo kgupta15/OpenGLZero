@@ -21,17 +21,11 @@
 **           E-mail: kpgupta98@gmail.com                                  **
 **           Date  : 13.03.2019                                           **
 ****************************************************************************/
-#include "Scene.h"
+#pragma once
+#ifndef __PLATFORM_H__
+#define __PLATFORM_H__
 
-int main(int argc, char *argv[])
-{
-	Scene* scene = new Scene("OpenGLZero");
-	if(!scene->Init(argc, argv)) {
-		scene->Shutdown();
-		return 0;
-	}
+constexpr int WINDOW_WIDTH = 640;
+constexpr int WINDOW_HEIGHT = 480;
 
-	scene->Run();
-	scene->Shutdown();
-	return 1;
-}
+#endif

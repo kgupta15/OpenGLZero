@@ -16,5 +16,15 @@ add_library(glew STATIC
 	${GLEW_SOURCE_DIR}/include)
 add_definitions(-DGLEW_STATIC)
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+set(OPENGLZERO_SOURCE ${OPENGLZERO_SOURCE}
+    src/Camera.cpp
+    src/Camera.h
+    src/main.cpp
+    src/Platform.h
+    src/Renderer.cpp
+    src/Renderer.h
+    src/Scene.cpp
+    src/Scene.h
+)
+add_executable(${PROJECT_NAME} ${OPENGLZERO_SOURCE})
 target_link_libraries(${PROJECT_NAME} SDL2main SDL2-static ${OPENGL_LIBRARY} glew)
